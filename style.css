@@ -242,7 +242,43 @@ body{
     line-height:1.9;
 }
 
+.open-to-roles{
+    padding-top: 20px;
+}
 
+.role-card{
+    text-align: center;
+}
+
+.role-intro{
+    margin-bottom: 25px;
+    color: var(--gray);
+    font-size: 1.05rem;
+}
+
+.role-tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+}
+
+.role-tags span{
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 999px;
+    background: rgba(0, 245, 255, 0.08);
+    border: 1px solid rgba(0, 245, 255, 0.3);
+    color: var(--white);
+    font-weight: 500;
+    box-shadow: 0 0 18px rgba(0, 245, 255, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.role-tags span:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
+}
 
 .resume-actions{
     display:flex;
